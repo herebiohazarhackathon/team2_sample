@@ -14,9 +14,14 @@ public:
 
 extern "C"  std::string  process(std::string id, std::string arg)
 {
-	std::regex r("[0-9]{1, 2}");
 	if (id == "8" || id == "9")
-	return "unknown id";
+	{
+
+	}
+	else if (id == "10" || id == "12")
+	{
+
+	}
 }
 
 #endif // TEAM2_H
