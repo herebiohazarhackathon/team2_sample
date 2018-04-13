@@ -1,4 +1,14 @@
-#ifndef HAFFMAN_H
-#define HAFFMAN_H
+#ifndef HUFFMAN_H
+#define HUFFMAN_H
 
-#endif // HAFFMAN_H
+#include <string>
+#include <unordered_map>
+
+std::string HuffmanCode(const std::string& input){
+    std::string result;
+
+
+    return result;
+}
+
+#endif // HUFFMAN_H

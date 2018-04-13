@@ -27,7 +27,9 @@ SOURCES += \
 
 HEADERS += \
         team2.h \
-        team2_global.h 
+        team2_global.h \ 
+    unique_chars.h \
+    huffman.h
 
 unix {
     target.path = /usr/lib
