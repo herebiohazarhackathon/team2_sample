@@ -4,6 +4,8 @@
 #include "team2_global.h"
 #include <regex>
 #include <cstddef>
+#include <unordered_map>
+#include <string>
 
 extern "C" std::string UniqueChars(const std::string& input){
     std::string result;
@@ -31,13 +33,13 @@ extern "C"  std::string  process(std::string id, std::string arg)
 {
 	if (id == "8" || id == "9")
 	{
-        UniqueChars(arg);
-
+        return UniqueChars(arg);
 	}
 	else if (id == "10" || id == "12")
 	{
 
 	}
+    return "invalid id";
 }
 
 #endif // TEAM2_H
