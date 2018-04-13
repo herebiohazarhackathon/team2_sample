@@ -15,7 +15,6 @@
 
 class TEAM2SHARED_EXPORT Team2
 {
-
 public:
 	Team2();
 };
