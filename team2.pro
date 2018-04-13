@@ -29,7 +29,10 @@ HEADERS += \
         team2.h \
         team2_global.h \ 
     unique_chars.h \
-    huffman.h
+    huffman.h \
+    derivative.h \
+    sort_array.h \
+    gcd_string.h
 
 unix {
     target.path = /usr/lib
