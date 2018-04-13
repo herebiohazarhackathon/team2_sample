@@ -1,6 +1,7 @@
 #ifndef UNIQUE_CHARS_H
 #define UNIQUE_CHARS_H
 
+#include <string>
 #include <unordered_map>
 
 extern "C" std::string UniqueChars(const std::string& input){

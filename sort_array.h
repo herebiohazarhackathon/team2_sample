@@ -1,6 +1,7 @@
 #ifndef SORT_ARRAY_H
 #define SORT_ARRAY_H
 
+#include <string>
 #include <vector>
 #include <cmath>
 #include <algorithm>
