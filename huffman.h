@@ -30,8 +30,6 @@ std::string HuffmanCode(const std::string& input){
 		//tree[it->second] =
 	}
 
-
-
 	return result;
 }
 
